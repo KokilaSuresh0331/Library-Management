@@ -1,0 +1,58 @@
+Tech Stack:
+Java
+Development Time:
+Customer Features: 1.5 Days (P2)
+Admin Features: 1.5 Days (P1)
+Total Development Time: 3 Days
+Documentation and Class Diagram:
+Documentation will include:
+System overview
+Feature descriptions
+Use cases
+Class diagrams
+User flows
+Database schema (if applicable)
+Class diagrams will illustrate the relationships and structure of classes within the system, including entities like Book, User, Library, etc.
+
+Admin Features (P1):
+Library Setup:
+
+Admin can set up the library by adding necessary details such as library name, address, contact information, etc.
+Admin User Login:
+
+Admin will have a secure login system to access the admin panel.
+Manage Books:
+
+Admin can perform CRUD operations on the library's stock of books.
+They can add new books, remove existing ones, or update the details of the books.
+Manage Accounts:
+
+Admin can manage customer accounts, including their borrowing history, overdue books, etc.
+Overdue Books Report:
+
+Admin can generate a report of all overdue books, listing the customers who have borrowed them.
+
+
+Customer Features (P2):
+Available Books Search and List:
+
+Customers can search for available books by title, author, genre, etc.
+The system will list the available books matching the search criteria.
+Request a Book:
+
+Customers can request to borrow a book that is available.
+They can submit their request, and the admin will handle the approval process.
+Overdue Books:
+
+Customers can view a list of books they have borrowed that are overdue.
+This feature will help customers keep track of their borrowed items and return them on time.
+Favorite Books:
+
+Customers can mark certain books as their favorites.
+They can easily access their favorite books for future reference or borrowing.
+
+Let's design a simple class diagram based on the provided features:
+
+This diagram outlines basic entities such as User, Book, Library, and Loan. User can be either Customer or Admin, differentiated by their roles. The Book entity represents the books available in the library. The Library entity contains information about the library itself. The Loan entity represents the borrowing relationship between a User and a Book.
+
+This is a simplified version and may require further refinement based on additional functionalities and considerations.
